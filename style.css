@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(beast.jpg); 
+color: #fff;
+background-size: cover;
+background-position: center;
+
+}
+.counter{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.box{
+  margin-left: 25px;
+  padding: 10px;
+}
+small{
+  margin-right: 15px;
+}
+.newyear{
+font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+@media(min-width:478px) {
+  .newyear{
+    font-size: 100px;
+    }
+}
+@media(min-width:778px) {
+  .newyear{
+    font-size: 150px;
+    }
+}
